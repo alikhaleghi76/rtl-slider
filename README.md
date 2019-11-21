@@ -5,10 +5,9 @@
 
 This is an android intro slider library with supporting RTL layouts. 
 
-![Screenshot 1](screenshots/img1.png)
 <p align="center">
-  <img src="screenshots/img1.png" width="350" title="Screenshot 1">
-  <img src="screenshots/img2.png" width="350" alt="Screenshot 2">
+  <img src="screenshots/img1.png" width="300" title="Screenshot 1">
+  <img src="screenshots/img2.png" width="300" alt="Screenshot 2">
 </p>
 
 ## Import
