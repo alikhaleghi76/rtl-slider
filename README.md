@@ -5,6 +5,8 @@
 
 This is an android intro slider library with supporting RTL layouts. 
 
+![Screenshot 1](screenshots/img1.png)
+
 ## Import
 
 First add jitpack maven repository to your project-level gradle file: 
