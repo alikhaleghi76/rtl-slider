@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="sliderOptions">
+        <attr name="next_text" format="string" />
+        <attr name="skip_text" format="string" />
+        <attr name="enter_text" format="string" />
+        <attr name="show_indicator" format="boolean" />
+        <attr name="is_rtl" format="boolean" />
+        <attr name="active_dot_color" format="string" />
+        <attr name="inactive_dot_color" format="string" />
+        <attr name="separator_color" format="string" />
+        <attr name="next_color" format="string" />
+        <attr name="skip_color" format="string" />
+    </declare-styleable>
+</resources>
