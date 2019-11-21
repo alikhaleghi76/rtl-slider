@@ -22,7 +22,7 @@ Then include library by adding it into your app-level gradle dependencies
 
 ```gradle
 	dependencies {
-	        implementation 'com.github.alikhaleghi76:rtl-slider:1.0.0'
+	        implementation 'com.github.alikhaleghi76:rtl-slider:1.0.6'
 	}
 ```
 
