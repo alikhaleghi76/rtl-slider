@@ -3,12 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    xmlns:sliderOptions="http://schemas.android.com/apk/res-auto"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
     <ali.khaleghi.rtlintroslider.RTLIntroSlider
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        sliderOptions:is_rtl="true"
         android:id="@+id/introSlider" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -195,8 +195,9 @@ class RTLIntroSlider @JvmOverloads constructor(context: Context, attrs: Attribut
             dots[i].setTextColor(Color.parseColor(inactiveDotColor))
             indicatorLayout.addView(dots[i])
         }
-        if (dots.isNotEmpty())
-            dots[dots.size - currentPage - 1].setTextColor(Color.parseColor(activeDotColor))
+        if (dots.isNotEmpty()) {
+            dots[currentPage].setTextColor(Color.parseColor(activeDotColor))
+        }
 
     }
 
@@ -212,12 +213,12 @@ class RTLIntroSlider @JvmOverloads constructor(context: Context, attrs: Attribut
     fun addFragment(fragment: Fragment) {
         viewPagerAdapter.addFragment(fragment)
         viewPagerAdapter.notifyDataSetChanged()
-        addBottomDots(viewPager.currentItem)
         if (isRtl) {
             viewPager.currentItem = viewPagerAdapter.count - 1
         } else {
             viewPager.currentItem = 0
         }
+        addBottomDots(viewPager.currentItem)
     }
 
     /**

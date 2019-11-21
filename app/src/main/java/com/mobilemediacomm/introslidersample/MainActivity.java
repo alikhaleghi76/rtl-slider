@@ -16,6 +16,10 @@ public class MainActivity extends AppCompatActivity {
 
         RTLIntroSlider introSlider = findViewById(R.id.introSlider);
 
+        // observe skip button click
+        introSlider.addOnSkipClickListener(() -> finish());
+
+
         introSlider.addPage(
                 "TITLE1",
                 "DETAIL1",
@@ -26,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         introSlider.addPage(
                 "TITLE 2",
-                "DETAIL 2",
+                "جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2",
                 ContextCompat.getColor(this, R.color.intro_text_color1),
                 ContextCompat.getColor(this, R.color.intro_background_color2),
                 -1
