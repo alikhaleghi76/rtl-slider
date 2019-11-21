@@ -9,7 +9,16 @@
     <ali.khaleghi.rtlintroslider.RTLIntroSlider
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        sliderOptions:is_rtl="false"
-        android:id="@+id/introSlider" />
+        android:id="@+id/introSlider"
+        sliderOptions:next_text="@string/next"
+        sliderOptions:skip_text="@string/skip"
+        sliderOptions:enter_text="@string/enter"
+        sliderOptions:show_indicator="true"
+        sliderOptions:is_rtl="true"
+        sliderOptions:active_dot_color="#CCFFFFFF"
+        sliderOptions:inactive_dot_color="#77FFFFFF"
+        sliderOptions:separator_color="#88FFFFFF"
+        sliderOptions:next_color="#FFFFFF"
+        sliderOptions:skip_color="#FFFFFF" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
