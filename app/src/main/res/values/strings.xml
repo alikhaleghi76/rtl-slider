@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">IntroSlider Sample</string>
+    <string name="rtl_detail"><![CDATA[Material library supporting both LTR & RTL layouts.]]></string>
+    <string name="enjoy">Enjoy coding ;)</string>
 </resources>

@@ -21,19 +21,19 @@ public class MainActivity extends AppCompatActivity {
 
 
         introSlider.addPage(
-                "TITLE1",
-                "DETAIL1",
+                "RTL Intro Slider",
+                getString(R.string.rtl_detail),
                 ContextCompat.getColor(this, R.color.intro_text_color1),
                 ContextCompat.getColor(this, R.color.intro_background_color1),
-                R.drawable.ic_launcher_foreground
+                R.drawable.ic_call_merge_black_24dp
         );
 
         introSlider.addPage(
-                "TITLE 2",
-                "جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2جزئیات 2",
+                "",
+                getString(R.string.enjoy),
                 ContextCompat.getColor(this, R.color.intro_text_color1),
                 ContextCompat.getColor(this, R.color.intro_background_color2),
-                -1
+                R.drawable.ic_sentiment_satisfied_black_24dp
         );
     }
 }

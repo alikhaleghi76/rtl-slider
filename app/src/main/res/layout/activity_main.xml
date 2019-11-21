@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     xmlns:sliderOptions="http://schemas.android.com/apk/res-auto"
@@ -10,7 +9,7 @@
     <ali.khaleghi.rtlintroslider.RTLIntroSlider
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        sliderOptions:is_rtl="true"
+        sliderOptions:is_rtl="false"
         android:id="@+id/introSlider" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
