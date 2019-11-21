@@ -124,3 +124,6 @@ You can customize slider inside java code like this:
         introSlider.addOnSkipClickListener(() -> finish());
         
 ```
+
+## License
+[GNU General Public License v3.0](https://github.com/alikhaleghi76/rtl-slider/blob/master/LICENSE)
