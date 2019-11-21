@@ -1,9 +1,7 @@
 package ali.khaleghi.rtlintroslider.fragment;
 
-import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
-import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,8 +16,6 @@ import androidx.fragment.app.Fragment;
 import com.bumptech.glide.Glide;
 
 import ali.khaleghi.rtlintroslider.R;
-import ali.khaleghi.rtlintroslider.util.DimensionConverter;
-import ali.khaleghi.rtlintroslider.util.JustifiedTextView;
 
 public class SampleFragment extends Fragment {
 
@@ -27,7 +23,7 @@ public class SampleFragment extends Fragment {
     int backColor, icon, textColor;
 
     TextView titleText;
-    JustifiedTextView messageText;
+    TextView messageText;
 
     Typeface typeface;
 
@@ -51,21 +47,17 @@ public class SampleFragment extends Fragment {
 
         if (typeface != null) {
             titleText.setTypeface(typeface);
-            messageText.setTypeFace(typeface);
+            messageText.setTypeface(typeface);
         }
 
-
-        messageText.setTextSize(TypedValue.COMPLEX_UNIT_SP,14);
-        messageText.setLineSpacing((int) DimensionConverter.dpToPx(getContext(), 6));
-        messageText.setTextColor(Color.WHITE);
 
         titleText.setText(title);
         if (title == null || title.isEmpty())
             titleText.setVisibility(View.GONE);
 
         messageText.setText(message);
-
         messageText.setTextColor(textColor);
+
         titleText.setTextColor(textColor);
 
         root.setBackgroundColor(backColor);
@@ -83,6 +75,6 @@ public class SampleFragment extends Fragment {
         this.typeface = typeface;
 
         if (titleText != null) titleText.setTypeface(typeface);
-        if (messageText != null) messageText.setTypeFace(typeface);
+        if (messageText != null) messageText.setTypeface(typeface);
     }
 }
